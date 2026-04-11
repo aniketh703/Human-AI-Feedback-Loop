@@ -1,0 +1,260 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - good morning
+    - good evening
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you later
+    - talk to you later
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you human?
+    - am I talking to a bot?
+
+- intent: request_agent
+  examples: |
+    - I want to talk to an agent
+    - connect me to a human
+    - I need human support
+    - speak to a representative
+    - transfer me to an agent
+    - I want human help
+    - can I talk to a person
+    - human agent
+    - agent please
+    - talk to agent
+    - need an agent
+    - get me an agent
+    - real person please
+    - speak to human
+    - live agent
+    - customer service agent
+    - I want a real person
+
+- intent: technical_issue
+  examples: |
+    - my product is not working
+    - I have a technical problem
+    - something is broken
+    - the app crashed
+    - error message appearing
+    - technical support needed
+    - having technical difficulties
+    - tech issue
+
+- intent: billing_issue
+  examples: |
+    - I have a billing question
+    - charge on my account
+    - refund request
+    - payment problem
+    - wrong amount charged
+
+- intent: account_issue
+  examples: |
+    - I have an account issue
+    - account problem
+    - can't access my account
+    - my account isn't working
+    - account help needed
+    - having account trouble
+    - issue with my account
+
+- intent: out_of_scope
+  examples: |
+    - asdfghjkl
+    - jfkdsjfkds
+    - random text
+    - blah blah
+    - xyz123
+    - I don't know what to say
+    - how is the weather today
+    - what's the weather like
+    - tell me a joke
+    - what time is it
+    - who is the president
+    - what's your favorite color
+    - can you sing a song
+    - play music
+    - order pizza
+    - book a flight
+    - what's 2+2
+    - tell me about yourself
+    - do you like sports
+    - what's the meaning of life
+
+- intent: password_reset
+  examples: |
+    - I forgot my password
+    - how do I reset my password
+    - reset password
+    - can't remember my password
+    - need to change my password
+    - forgot password help
+    - password reset instructions
+    - how to recover my password
+    - what is the password reset process
+    - need password help
+
+- intent: account_locked
+  examples: |
+    - my account is locked
+    - can't log in
+    - account locked out
+    - unable to access my account
+    - account suspended
+    - locked out of my account
+    - account is blocked
+    - why is my account locked
+    - account access denied
+    - locked account help
+
+- intent: billing_question
+  examples: |
+    - how much does it cost
+    - what are your prices
+    - billing information
+    - payment options
+    - subscription cost
+    - pricing plans
+    - refund policy
+
+- intent: software_not_working
+  examples: |
+    - the app isn't working
+    - software crashed
+    - application won't open
+    - program not responding
+    - app freezing
+    - software error
+
+- intent: product_features
+  examples: |
+    - what features do you have
+    - tell me about your product
+    - what can this do
+    - product capabilities
+    - available features
+    - what does this include
+
+- intent: installation_help
+  examples: |
+    - how do I install
+    - installation instructions
+    - setup guide
+    - how to install the software
+    - installation steps
+    - help with setup
+
+- intent: clear_browser_cache
+  examples: |
+    - how to clear browser cache
+    - clear cache on chrome
+    - delete browser cache
+    - remove cached files
+    - clear browsing data
+    - cache clearing steps
+
+- intent: slow_computer
+  examples: |
+    - my computer is slow
+    - computer is slow
+    - pc is slow
+    - my pc is slow
+    - system running slowly
+    - computer performance issues
+    - why is my pc slow
+    - speed up computer
+    - slow performance
+    - pc running slow
+    - my laptop is slow
+    - computer running slowly
+    - slow computer
+    - my system is slow
+    - computer is very slow
+    - pc performance issue
+
+- intent: email_not_received
+  examples: |
+    - I didn't get the email
+    - email not arriving
+    - not receiving emails
+    - where is my email
+    - missing confirmation email
+    - email delivery issue
+
+- intent: cancel_subscription
+  examples: |
+    - cancel my subscription
+    - how to cancel
+    - stop my subscription
+    - unsubscribe
+    - end subscription
+    - cancel account
+
+- intent: search_website
+  examples: |
+    - search for [product info](search_query)
+    - find [pricing](search_query) on your website
+    - look up [features](search_query)
+    - search [documentation](search_query)
+    - find information about [services](search_query)
+
+- intent: ask_about_website
+  examples: |
+    - what does your website say about this
+    - do you have information on this
+    - what's on your website about this topic
+    - can you check your website
+    - is there info on your site
+
+- intent: ask_about_rasa
+  examples: |
+    - tell me about rasa
+    - what is rasa
+    - what can you tell me about rasa
+    - explain rasa
+    - what does rasa do
+    - what is this chatbot
+    - tell me about this bot
+    - what are rasa's features
+    - rasa information
+
+- intent: rasa_usage
+  examples: |
+    - how to use rasa
+    - how do I use rasa
+    - how does rasa work
+    - rasa tutorial
+    - getting started with rasa
+    - how to build a chatbot with rasa
+    - rasa guide
+    - rasa getting started
+    - how to create a bot with rasa
+    - rasa setup
+    - how to set up rasa
+    - how can I start using rasa
+    - rasa installation guide
+    - how to train rasa
+    - how to run rasa
+
+- intent: refresh_knowledge
+  examples: |
+    - refresh knowledge base
+    - update website knowledge
+    - re-crawl the website
+    - refresh the cache
+    - update your knowledge
+    - reload website content
+

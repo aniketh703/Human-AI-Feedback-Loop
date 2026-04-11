@@ -1,0 +1,24 @@
+{
+  "conversation_id": "be3b9577-9d01-4160-9da9-223147ac930a",
+  "user_id": "test",
+  "timestamp": "2025-12-05T21:59:07.938512",
+  "conversation_history": [
+    {
+      "sender": "user",
+      "text": "my computer is slow",
+      "timestamp": 1764952125.385776
+    },
+    {
+      "sender": "bot",
+      "text": "To improve computer performance:\n\n1. Close unnecessary programs\n2. Check Task Manager for high CPU/memory usage\n3. Run Disk Cleanup\n4. Restart your computer\n5. Disable startup programs you don't need\n6. Consider upgrading RAM if issues persist\n\nNeed detailed help? I can connect you with an agent!",
+      "timestamp": 1764952125.3967855
+    },
+    {
+      "sender": "user",
+      "text": "agent please",
+      "timestamp": 1764952146.8719676
+    }
+  ],
+  "reason": "user_request",
+  "status": "pending"
+}

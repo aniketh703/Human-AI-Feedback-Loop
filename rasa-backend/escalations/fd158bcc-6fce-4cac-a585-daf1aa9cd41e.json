@@ -1,0 +1,14 @@
+{
+  "conversation_id": "fd158bcc-6fce-4cac-a585-daf1aa9cd41e",
+  "user_id": "user",
+  "timestamp": "2025-10-27T19:29:07.346944",
+  "conversation_history": [
+    {
+      "sender": "user",
+      "text": "my computer is running slow",
+      "timestamp": 1761573547.2578328
+    }
+  ],
+  "reason": "user_request",
+  "status": "pending"
+}

@@ -1,0 +1,94 @@
+{
+  "conversation_id": "3cb65551-43a0-4afc-af6d-b6f7604a0211",
+  "user_id": "user",
+  "timestamp": "2025-10-27T09:53:17.424969",
+  "conversation_history": [
+    {
+      "sender": "user",
+      "text": "hi",
+      "timestamp": 1761538746.7019641
+    },
+    {
+      "sender": "bot",
+      "text": "Hey! How can I help you today?",
+      "timestamp": 1761538746.7144825
+    },
+    {
+      "sender": "user",
+      "text": "can i get agent",
+      "timestamp": 1761538749.2786357
+    },
+    {
+      "sender": "bot",
+      "text": "I understand you'd like to speak with a human agent. Let me connect you right away...",
+      "timestamp": 1761538749.3375564
+    },
+    {
+      "sender": "bot",
+      "text": "Connecting you to an agent... (ID: c83ac84d)",
+      "timestamp": 1761538749.3375564
+    },
+    {
+      "sender": "user",
+      "text": "I want to talk to an agent\" \u2192 Should say \"I understand you'd like to speak with a human agent",
+      "timestamp": 1761538764.973157
+    },
+    {
+      "sender": "bot",
+      "text": "I understand you'd like to speak with a human agent. Let me connect you right away...",
+      "timestamp": 1761538765.0157475
+    },
+    {
+      "sender": "bot",
+      "text": "Connecting you to an agent... (ID: dcbd7fc9)",
+      "timestamp": 1761538765.0157475
+    },
+    {
+      "sender": "user",
+      "text": "connect me to human",
+      "timestamp": 1761538776.5915203
+    },
+    {
+      "sender": "bot",
+      "text": "I understand you'd like to speak with a human agent. Let me connect you right away...",
+      "timestamp": 1761538776.6340902
+    },
+    {
+      "sender": "bot",
+      "text": "Connecting you to an agent... (ID: 49aef802)",
+      "timestamp": 1761538776.6340902
+    },
+    {
+      "sender": "user",
+      "text": "can i speak with your employee",
+      "timestamp": 1761538786.151087
+    },
+    {
+      "sender": "bot",
+      "text": "I understand you'd like to speak with a human agent. Let me connect you right away...",
+      "timestamp": 1761538786.1986656
+    },
+    {
+      "sender": "bot",
+      "text": "Connecting you to an agent... (ID: 918684fe)",
+      "timestamp": 1761538786.1986656
+    },
+    {
+      "sender": "user",
+      "text": "ijmtyumhj,gyjh",
+      "timestamp": 1761538905.1382816
+    },
+    {
+      "sender": "bot",
+      "text": "Hey! How can I help you today?",
+      "timestamp": 1761538905.1583378
+    },
+    {
+      "sender": "user",
+      "text": "I want to talk to an agent",
+      "timestamp": 1761538997.3808625
+    }
+  ],
+  "reason": "user_request",
+  "status": "pending"
+}

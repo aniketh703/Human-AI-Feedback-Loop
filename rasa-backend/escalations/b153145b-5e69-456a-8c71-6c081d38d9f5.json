@@ -1,0 +1,54 @@
+{
+  "conversation_id": "b153145b-5e69-456a-8c71-6c081d38d9f5",
+  "user_id": "user",
+  "timestamp": "2025-10-27T18:53:38.595176",
+  "conversation_history": [
+    {
+      "sender": "user",
+      "text": "hi",
+      "timestamp": 1761542732.4127529
+    },
+    {
+      "sender": "bot",
+      "text": "Hey! How can I help you today?",
+      "timestamp": 1761542732.420275
+    },
+    {
+      "sender": "user",
+      "text": "can i know how to clear my browser cache",
+      "timestamp": 1761542761.3273506
+    },
+    {
+      "sender": "bot",
+      "text": "I understand you'd like to speak with a human agent. Let me connect you right away...",
+      "timestamp": 1761542761.386143
+    },
+    {
+      "sender": "bot",
+      "text": "\ud83d\udd04 Connecting you to an agent... (ID: 81e3bd92)",
+      "timestamp": 1761542761.386143
+    },
+    {
+      "sender": "user",
+      "text": "how to clear browser cache on google chrome",
+      "timestamp": 1761542807.2153466
+    },
+    {
+      "sender": "bot",
+      "text": "I understand you'd like to speak with a human agent. Let me connect you right away...",
+      "timestamp": 1761542807.2948015
+    },
+    {
+      "sender": "bot",
+      "text": "\ud83d\udd04 Connecting you to an agent... (ID: 0a2057f6)",
+      "timestamp": 1761542807.2948015
+    },
+    {
+      "sender": "user",
+      "text": "my computer is running slow",
+      "timestamp": 1761571418.5003433
+    }
+  ],
+  "reason": "user_request",
+  "status": "pending"
+}

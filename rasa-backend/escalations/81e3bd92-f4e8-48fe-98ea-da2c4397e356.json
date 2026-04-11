@@ -1,0 +1,24 @@
+{
+  "conversation_id": "81e3bd92-f4e8-48fe-98ea-da2c4397e356",
+  "user_id": "user",
+  "timestamp": "2025-10-27T10:56:01.343008",
+  "conversation_history": [
+    {
+      "sender": "user",
+      "text": "hi",
+      "timestamp": 1761542732.4127529
+    },
+    {
+      "sender": "bot",
+      "text": "Hey! How can I help you today?",
+      "timestamp": 1761542732.420275
+    },
+    {
+      "sender": "user",
+      "text": "can i know how to clear my browser cache",
+      "timestamp": 1761542761.3273506
+    }
+  ],
+  "reason": "user_request",
+  "status": "pending"
+}

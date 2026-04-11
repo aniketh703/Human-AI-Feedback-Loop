@@ -1,0 +1,99 @@
+{
+  "conversation_id": "13b5caa8-f4c0-40a2-a53f-aad7a371d9ef",
+  "user_id": "user",
+  "timestamp": "2025-11-01T16:27:47.553343",
+  "conversation_history": [
+    {
+      "sender": "user",
+      "text": "my computer is slow",
+      "timestamp": 1761992718.397084
+    },
+    {
+      "sender": "bot",
+      "text": " Check Task Manager for high CPU usage Close unnecessary programs Restart the computer Run disk cleanup",
+      "timestamp": 1761992720.0144804
+    },
+    {
+      "sender": "user",
+      "text": "how to clear browser cache",
+      "timestamp": 1761992736.8209407
+    },
+    {
+      "sender": "bot",
+      "text": " Check Task Manager for high CPU usage Close unnecessary programs Restart the computer Run disk cleanup",
+      "timestamp": 1761992737.0848072
+    },
+    {
+      "sender": "user",
+      "text": "how di register for an event",
+      "timestamp": 1761992753.8542075
+    },
+    {
+      "sender": "bot",
+      "text": "I'm not quite sure I understood that correctly. Would you like me to connect you with a human agent?",
+      "timestamp": 1761992753.885677
+    },
+    {
+      "sender": "bot",
+      "text": "I understand you'd like to speak with a human agent. Let me connect you right away...",
+      "timestamp": 1761992754.115838
+    },
+    {
+      "sender": "bot",
+      "text": "\ud83d\udd04 Connecting you to an agent... (ID: 8e414064)",
+      "timestamp": 1761992754.115838
+    },
+    {
+      "sender": "user",
+      "text": "how di register for an event",
+      "timestamp": 1761992780.6466541
+    },
+    {
+      "sender": "bot",
+      "text": "I'm not quite sure I understood that correctly. Would you like me to connect you with a human agent?",
+      "timestamp": 1761992780.6922457
+    },
+    {
+      "sender": "bot",
+      "text": "I understand you'd like to speak with a human agent. Let me connect you right away...",
+      "timestamp": 1761992780.794144
+    },
+    {
+      "sender": "bot",
+      "text": "\ud83d\udd04 Connecting you to an agent... (ID: 2d42ee07)",
+      "timestamp": 1761992780.794144
+    },
+    {
+      "sender": "user",
+      "text": "hello",
+      "timestamp": 1761993839.0897152
+    },
+    {
+      "sender": "bot",
+      "text": "Hey! How can I help you today?",
+      "timestamp": 1761993839.363482
+    },
+    {
+      "sender": "user",
+      "text": "how to clear my browser cache",
+      "timestamp": 1761994622.3304527
+    },
+    {
+      "sender": "bot",
+      "text": " Check Task Manager for high CPU usage Close unnecessary programs Restart the computer Run disk cleanup",
+      "timestamp": 1761994622.3924105
+    },
+    {
+      "sender": "user",
+      "text": "How doo open settings in window 11",
+      "timestamp": 1761994667.3438306
+    },
+    {
+      "sender": "bot",
+      "text": "I'm not quite sure I understood that correctly. Would you like me to connect you with a human agent?",
+      "timestamp": 1761994667.4579637
+    }
+  ],
+  "reason": "user_request",
+  "status": "pending"
+}

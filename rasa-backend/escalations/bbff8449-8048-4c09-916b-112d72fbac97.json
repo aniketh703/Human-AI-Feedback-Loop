@@ -1,0 +1,64 @@
+{
+  "conversation_id": "bbff8449-8048-4c09-916b-112d72fbac97",
+  "user_id": "user",
+  "timestamp": "2025-10-27T10:39:15.168196",
+  "conversation_history": [
+    {
+      "sender": "user",
+      "text": "i want to talk to an agent",
+      "timestamp": 1761540563.7136815
+    },
+    {
+      "sender": "bot",
+      "text": "I understand you'd like to speak with a human agent. Let me connect you right away...",
+      "timestamp": 1761540563.826
+    },
+    {
+      "sender": "bot",
+      "text": "\ud83d\udd04 Connecting you to an agent... (ID: 8e55b4c9)",
+      "timestamp": 1761540563.826
+    },
+    {
+      "sender": "user",
+      "text": "Hi i need to speak with human",
+      "timestamp": 1761541300.6838958
+    },
+    {
+      "sender": "bot",
+      "text": "I understand you'd like to speak with a human agent. Let me connect you right away...",
+      "timestamp": 1761541300.7810855
+    },
+    {
+      "sender": "bot",
+      "text": "\ud83d\udd04 Connecting you to an agent... (ID: a96883e3)",
+      "timestamp": 1761541300.7810855
+    },
+    {
+      "sender": "user",
+      "text": "hi",
+      "timestamp": 1761541718.8758
+    },
+    {
+      "sender": "bot",
+      "text": "Hey! How can I help you today?",
+      "timestamp": 1761541718.8983662
+    },
+    {
+      "sender": "user",
+      "text": "i need to know how to clear my browser cache",
+      "timestamp": 1761541740.7797227
+    },
+    {
+      "sender": "bot",
+      "text": "Hey! How can I help you today?",
+      "timestamp": 1761541740.780735
+    },
+    {
+      "sender": "user",
+      "text": "can i speak with an agent",
+      "timestamp": 1761541755.141299
+    }
+  ],
+  "reason": "user_request",
+  "status": "pending"
+}

@@ -1,0 +1,14 @@
+{
+  "conversation_id": "8e55b4c9-3c53-48f2-b15a-99357d405fa6",
+  "user_id": "user",
+  "timestamp": "2025-10-27T10:19:23.749270",
+  "conversation_history": [
+    {
+      "sender": "user",
+      "text": "i want to talk to an agent",
+      "timestamp": 1761540563.7136815
+    }
+  ],
+  "reason": "user_request",
+  "status": "pending"
+}

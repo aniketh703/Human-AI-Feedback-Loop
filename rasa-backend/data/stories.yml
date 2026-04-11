@@ -1,0 +1,97 @@
+version: "3.1"
+
+stories:
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: user requests agent
+  steps:
+  - intent: request_agent
+  - action: action_escalate_to_agent
+
+- story: technical issue resolved by bot
+  steps:
+  - intent: technical_issue
+  - action: utter_technical_issue
+
+- story: account issue resolved by bot
+  steps:
+  - intent: account_issue
+  - action: utter_account_issue
+
+- story: billing issue answered by bot
+  steps:
+  - intent: billing_issue
+  - action: utter_billing_question
+
+- story: goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: password reset flow
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: password_reset
+  - action: utter_password_reset
+
+- story: account locked
+  steps:
+  - intent: account_locked
+  - action: utter_account_locked
+
+- story: billing inquiry
+  steps:
+  - intent: billing_question
+  - action: utter_billing_question
+
+- story: software issue
+  steps:
+  - intent: software_not_working
+  - action: utter_software_not_working
+
+- story: product info
+  steps:
+  - intent: product_features
+  - action: utter_product_features
+
+- story: installation
+  steps:
+  - intent: installation_help
+  - action: utter_installation_help
+
+- story: slow computer
+  steps:
+  - intent: slow_computer
+  - action: utter_slow_computer
+
+- story: email issue
+  steps:
+  - intent: email_not_received
+  - action: utter_email_not_received
+
+- story: cancel subscription
+  steps:
+  - intent: cancel_subscription
+  - action: utter_cancel_subscription
+
+- story: browser cache with followup
+  steps:
+  - intent: clear_browser_cache
+  - action: utter_clear_browser_cache
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: rasa usage guide
+  steps:
+  - intent: rasa_usage
+  - action: utter_rasa_usage
+
+- story: about rasa
+  steps:
+  - intent: ask_about_rasa
+  - action: utter_about_rasa
+

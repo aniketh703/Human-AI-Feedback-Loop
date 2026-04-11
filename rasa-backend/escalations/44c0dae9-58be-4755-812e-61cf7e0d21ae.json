@@ -1,0 +1,24 @@
+{
+  "conversation_id": "44c0dae9-58be-4755-812e-61cf7e0d21ae",
+  "user_id": "user_18bwfgyqifj",
+  "timestamp": "2025-12-04T08:11:16.811088",
+  "conversation_history": [
+    {
+      "sender": "user",
+      "text": "Hello",
+      "timestamp": 1764816064.3333573
+    },
+    {
+      "sender": "bot",
+      "text": "Hey! How can I help you today?",
+      "timestamp": 1764816065.26734
+    },
+    {
+      "sender": "user",
+      "text": "can i talk to an agent",
+      "timestamp": 1764816075.6927042
+    }
+  ],
+  "reason": "user_request",
+  "status": "pending"
+}

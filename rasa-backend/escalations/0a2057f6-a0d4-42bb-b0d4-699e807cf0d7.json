@@ -1,0 +1,39 @@
+{
+  "conversation_id": "0a2057f6-a0d4-42bb-b0d4-699e807cf0d7",
+  "user_id": "user",
+  "timestamp": "2025-10-27T10:56:47.260785",
+  "conversation_history": [
+    {
+      "sender": "user",
+      "text": "hi",
+      "timestamp": 1761542732.4127529
+    },
+    {
+      "sender": "bot",
+      "text": "Hey! How can I help you today?",
+      "timestamp": 1761542732.420275
+    },
+    {
+      "sender": "user",
+      "text": "can i know how to clear my browser cache",
+      "timestamp": 1761542761.3273506
+    },
+    {
+      "sender": "bot",
+      "text": "I understand you'd like to speak with a human agent. Let me connect you right away...",
+      "timestamp": 1761542761.386143
+    },
+    {
+      "sender": "bot",
+      "text": "\ud83d\udd04 Connecting you to an agent... (ID: 81e3bd92)",
+      "timestamp": 1761542761.386143
+    },
+    {
+      "sender": "user",
+      "text": "how to clear browser cache on google chrome",
+      "timestamp": 1761542807.2153466
+    }
+  ],
+  "reason": "user_request",
+  "status": "pending"
+}

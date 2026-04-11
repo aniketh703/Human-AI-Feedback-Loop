@@ -1,0 +1,29 @@
+{
+  "conversation_id": "a96883e3-5e90-42ab-af40-3ca3e692e4e2",
+  "user_id": "user",
+  "timestamp": "2025-10-27T10:31:40.726988",
+  "conversation_history": [
+    {
+      "sender": "user",
+      "text": "i want to talk to an agent",
+      "timestamp": 1761540563.7136815
+    },
+    {
+      "sender": "bot",
+      "text": "I understand you'd like to speak with a human agent. Let me connect you right away...",
+      "timestamp": 1761540563.826
+    },
+    {
+      "sender": "bot",
+      "text": "\ud83d\udd04 Connecting you to an agent... (ID: 8e55b4c9)",
+      "timestamp": 1761540563.826
+    },
+    {
+      "sender": "user",
+      "text": "Hi i need to speak with human",
+      "timestamp": 1761541300.6838958
+    }
+  ],
+  "reason": "user_request",
+  "status": "pending"
+}

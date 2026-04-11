@@ -1,0 +1,14 @@
+{
+  "conversation_id": "854ff78b-97d1-4607-9c5e-8a2ff3248213",
+  "user_id": "user304",
+  "timestamp": "2025-12-04T09:27:08.361969",
+  "conversation_history": [
+    {
+      "sender": "user",
+      "text": "I have a billing question",
+      "timestamp": 1764820627.3189807
+    }
+  ],
+  "reason": "user_request",
+  "status": "pending"
+}

@@ -1,0 +1,24 @@
+{
+  "conversation_id": "85d23d55-bd37-4186-98a8-165a0daabc86",
+  "user_id": "test_user",
+  "timestamp": "2025-11-29T22:51:22.073800",
+  "conversation_history": [
+    {
+      "sender": "user",
+      "text": "asdfghjkl",
+      "timestamp": 1764436879.0959315
+    },
+    {
+      "sender": "bot",
+      "text": "I'm not quite sure I understood that correctly. Would you like me to connect you with a human agent?",
+      "timestamp": 1764436879.8307
+    },
+    {
+      "sender": "user",
+      "text": "yes",
+      "timestamp": 1764436880.886318
+    }
+  ],
+  "reason": "user_request",
+  "status": "pending"
+}

@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Rasa/model artifacts
+rasa-backend/models/
+rasa-backend/website_cache/
+rasa-backend/conversation_logs/
+rasa-backend/.rasa/
+rasa-backend/venv/
+
+# Node/React
+react-frontend/node_modules/
+react-frontend/build/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log

@@ -1,0 +1,123 @@
+version: "3.1"
+
+rules:
+- rule: Greet user
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: Handle technical issue
+  steps:
+  - intent: technical_issue
+  - action: utter_technical_issue
+
+- rule: Handle account issue
+  steps:
+  - intent: account_issue
+  - action: utter_account_issue
+
+- rule: Handle billing issue
+  steps:
+  - intent: billing_issue
+  - action: utter_billing_question
+
+- rule: User requests agent immediately
+  steps:
+  - intent: request_agent
+  - action: action_escalate_to_agent
+
+- rule: Say goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Respond to bot challenge
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Handle low confidence or out of scope
+  steps:
+  - intent: nlu_fallback
+  - action: action_smart_fallback
+
+- rule: Handle out of scope queries
+  steps:
+  - intent: out_of_scope
+  - action: action_smart_fallback
+
+- rule: Respond to password reset
+  steps:
+  - intent: password_reset
+  - action: utter_password_reset
+
+- rule: Respond to account locked
+  steps:
+  - intent: account_locked
+  - action: utter_account_locked
+
+- rule: Respond to billing question
+  steps:
+  - intent: billing_question
+  - action: utter_billing_question
+
+- rule: Respond to software not working
+  steps:
+  - intent: software_not_working
+  - action: utter_software_not_working
+
+- rule: Respond to product features
+  steps:
+  - intent: product_features
+  - action: utter_product_features
+
+- rule: Respond to installation help
+  steps:
+  - intent: installation_help
+  - action: utter_installation_help
+
+- rule: Respond to slow computer
+  steps:
+  - intent: slow_computer
+  - action: utter_slow_computer
+
+- rule: Respond to email not received
+  steps:
+  - intent: email_not_received
+  - action: utter_email_not_received
+
+- rule: Respond to cancel subscription
+  steps:
+  - intent: cancel_subscription
+  - action: utter_cancel_subscription
+
+- rule: Respond to clear browser cache
+  steps:
+  - intent: clear_browser_cache
+  - action: utter_clear_browser_cache
+
+# RAG-powered rules
+- rule: Search website content
+  steps:
+  - intent: search_website
+  - action: action_search_website
+
+- rule: Answer from website knowledge
+  steps:
+  - intent: ask_about_website
+  - action: action_answer_from_website
+
+- rule: Refresh knowledge base
+  steps:
+  - intent: refresh_knowledge
+  - action: action_refresh_knowledge
+
+- rule: Answer about Rasa
+  steps:
+  - intent: ask_about_rasa
+  - action: utter_about_rasa
+
+- rule: Explain how to use Rasa
+  steps:
+  - intent: rasa_usage
+  - action: utter_rasa_usage

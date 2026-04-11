@@ -1,0 +1,19 @@
+# Rasa Requirements
+rasa>=3.6.0
+
+# RAG System Dependencies
+sentence-transformers>=2.2.0
+faiss-cpu==1.7.4
+beautifulsoup4>=4.12.0
+requests>=2.31.0
+numpy>=1.19.2,<1.25.0
+lxml>=4.9.0
+
+# Rasa SDK for custom actions
+rasa-sdk>=3.6.0
+
+# Database
+sqlalchemy>=1.4.0,<2.0.0
+
+# Other utilities
+python-dotenv>=1.0.0

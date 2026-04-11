@@ -1,0 +1,94 @@
+{
+  "conversation_id": "0ebf2b53-eafe-4a41-8f0b-49c17224b9b9",
+  "user_id": "user_18bwfgyqifj",
+  "timestamp": "2025-12-05T21:26:02.551363",
+  "conversation_history": [
+    {
+      "sender": "user",
+      "text": "hello",
+      "timestamp": 1764950007.527254
+    },
+    {
+      "sender": "bot",
+      "text": "Hey! How can I help you today?",
+      "timestamp": 1764950007.5453174
+    },
+    {
+      "sender": "user",
+      "text": "can i know rasa",
+      "timestamp": 1764950018.4308116
+    },
+    {
+      "sender": "bot",
+      "text": "\ud83d\udcda **How to Use Rasa**\n\nHere's a quick guide to get started with Rasa:\n\n**1. Installation:**\n```\npip install rasa\n```\n\n**2. Create a New Project:**\n```\nrasa init\n```\n\n**3. Key Files to Edit:**\n\u2022 `data/nlu.yml` - Training examples for intents\n\u2022 `data/stories.yml` - Conversation flows\n\u2022 `domain.yml` - Intents, responses, and actions\n\u2022 `config.yml` - NLU pipeline configuration\n\n**4. Train Your Model:**\n```\nrasa train\n```\n\n**5. Test Your Bot:**\n```\nrasa shell\n```\n\n**6. Run Action Server (for custom actions):**\n```\nrasa run actions\n```\n\n\ud83d\udcd6 Full documentation: https://rasa.com/docs/\n\nWould you like more details on any specific step?\n",
+      "timestamp": 1764950018.4388099
+    },
+    {
+      "sender": "user",
+      "text": "what is rasa",
+      "timestamp": 1764950032.097697
+    },
+    {
+      "sender": "bot",
+      "text": "\ud83e\udd16 **About Rasa**\n\nRasa is an open-source conversational AI platform that helps you build contextual AI assistants and chatbots.\n\n**Key Features:**\n\u2705 Natural Language Understanding (NLU) - Understands user intent\n\u2705 Dialogue Management - Manages conversation flow\n\u2705 Open Source - Full control over your data\n\u2705 Enterprise Ready - Scalable and secure\n\u2705 Multi-channel Support - Deploy anywhere\n\n**This Chatbot** is built using Rasa Open Source and demonstrates:\n\u2022 Intent classification\n\u2022 Entity extraction\n\u2022 Custom actions\n\u2022 Agent escalation\n\nLearn more at https://rasa.com\n\nWhat would you like to know more about?\n",
+      "timestamp": 1764950032.1087167
+    },
+    {
+      "sender": "user",
+      "text": "my computer is slow",
+      "timestamp": 1764950080.2775366
+    },
+    {
+      "sender": "bot",
+      "text": "I'm not sure I understand. Here's what I can help with:\n\n\u2022 Password reset and account issues\n\u2022 Billing and pricing questions\n\u2022 Technical support\n\u2022 Product information\n\u2022 Installation help\n\nOr I can connect you with a human agent. What would you prefer?",
+      "timestamp": 1764950081.4409683
+    },
+    {
+      "sender": "user",
+      "text": "I didn't get the email",
+      "timestamp": 1764950109.452624
+    },
+    {
+      "sender": "bot",
+      "text": "If you haven't received the email:\n\n1. Check your spam/junk folder\n2. Verify the email address is correct\n3. Wait 5-10 minutes (emails can be delayed)\n4. Add our domain to your safe senders list\n5. Request a new email\n\nStill not seeing it? Let me connect you with support!\n",
+      "timestamp": 1764950109.4631412
+    },
+    {
+      "sender": "user",
+      "text": "computer performance issues",
+      "timestamp": 1764950121.219894
+    },
+    {
+      "sender": "bot",
+      "text": "To improve computer performance:\n\n1. Close unnecessary programs\n2. Check Task Manager for high CPU/memory usage\n3. Run Disk Cleanup\n4. Restart your computer\n5. Disable startup programs you don't need\n6. Consider upgrading RAM if issues persist\n\nNeed detailed help? I can connect you with an agent!\n",
+      "timestamp": 1764950121.236962
+    },
+    {
+      "sender": "user",
+      "text": "my computer is slow",
+      "timestamp": 1764950135.0095692
+    },
+    {
+      "sender": "bot",
+      "text": "I'm not sure I understand. Here's what I can help with:\n\n\u2022 Password reset and account issues\n\u2022 Billing and pricing questions\n\u2022 Technical support\n\u2022 Product information\n\u2022 Installation help\n\nOr I can connect you with a human agent. What would you prefer?",
+      "timestamp": 1764950136.066584
+    },
+    {
+      "sender": "user",
+      "text": "agent please",
+      "timestamp": 1764950149.7855504
+    },
+    {
+      "sender": "bot",
+      "text": "I'm not sure I understand. Here's what I can help with:\n\n\u2022 Password reset and account issues\n\u2022 Billing and pricing questions\n\u2022 Technical support\n\u2022 Product information\n\u2022 Installation help\n\nOr I can connect you with a human agent. What would you prefer?",
+      "timestamp": 1764950150.862208
+    },
+    {
+      "sender": "user",
+      "text": "human agent",
+      "timestamp": 1764950161.5179446
+    }
+  ],
+  "reason": "user_request",
+  "status": "pending"
+}

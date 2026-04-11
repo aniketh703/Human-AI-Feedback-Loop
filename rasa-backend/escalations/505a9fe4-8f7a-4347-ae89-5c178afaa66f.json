@@ -1,0 +1,34 @@
+{
+  "conversation_id": "505a9fe4-8f7a-4347-ae89-5c178afaa66f",
+  "user_id": "test_user",
+  "timestamp": "2025-11-29T23:09:58.207292",
+  "conversation_history": [
+    {
+      "sender": "user",
+      "text": "hello",
+      "timestamp": 1764437993.4606588
+    },
+    {
+      "sender": "bot",
+      "text": "Hey! How can I help you today?",
+      "timestamp": 1764437993.892422
+    },
+    {
+      "sender": "user",
+      "text": "asdfghjkl",
+      "timestamp": 1764437994.9636402
+    },
+    {
+      "sender": "bot",
+      "text": "I'm not quite sure I understood that correctly. Would you like me to connect you with a human agent?",
+      "timestamp": 1764437994.980925
+    },
+    {
+      "sender": "user",
+      "text": "yes",
+      "timestamp": 1764437997.0863993
+    }
+  ],
+  "reason": "user_request",
+  "status": "pending"
+}

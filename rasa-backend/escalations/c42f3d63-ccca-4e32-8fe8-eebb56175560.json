@@ -1,0 +1,84 @@
+{
+  "conversation_id": "c42f3d63-ccca-4e32-8fe8-eebb56175560",
+  "user_id": "test_user",
+  "timestamp": "2025-11-29T23:14:57.679014",
+  "conversation_history": [
+    {
+      "sender": "user",
+      "text": "hello",
+      "timestamp": 1764437993.4606588
+    },
+    {
+      "sender": "bot",
+      "text": "Hey! How can I help you today?",
+      "timestamp": 1764437993.892422
+    },
+    {
+      "sender": "user",
+      "text": "asdfghjkl",
+      "timestamp": 1764437994.9636402
+    },
+    {
+      "sender": "bot",
+      "text": "I'm not quite sure I understood that correctly. Would you like me to connect you with a human agent?",
+      "timestamp": 1764437994.980925
+    },
+    {
+      "sender": "user",
+      "text": "yes",
+      "timestamp": 1764437997.0863993
+    },
+    {
+      "sender": "user",
+      "text": "hello",
+      "timestamp": 1764438076.845927
+    },
+    {
+      "sender": "bot",
+      "text": "Hey! How can I help you today?",
+      "timestamp": 1764438076.87468
+    },
+    {
+      "sender": "user",
+      "text": "asdfghjkl",
+      "timestamp": 1764438077.9412425
+    },
+    {
+      "sender": "bot",
+      "text": "I'm not quite sure I understood that correctly. Would you like me to connect you with a human agent?",
+      "timestamp": 1764438077.9589188
+    },
+    {
+      "sender": "user",
+      "text": "yes",
+      "timestamp": 1764438080.0561738
+    },
+    {
+      "sender": "user",
+      "text": "hello",
+      "timestamp": 1764438293.3619835
+    },
+    {
+      "sender": "bot",
+      "text": "Hey! How can I help you today?",
+      "timestamp": 1764438293.4071908
+    },
+    {
+      "sender": "user",
+      "text": "asdfghjkl",
+      "timestamp": 1764438294.4738572
+    },
+    {
+      "sender": "bot",
+      "text": "I'm not quite sure I understood that correctly. Would you like me to connect you with a human agent?",
+      "timestamp": 1764438294.486398
+    },
+    {
+      "sender": "user",
+      "text": "yes",
+      "timestamp": 1764438296.578259
+    }
+  ],
+  "reason": "user_request",
+  "status": "pending"
+}

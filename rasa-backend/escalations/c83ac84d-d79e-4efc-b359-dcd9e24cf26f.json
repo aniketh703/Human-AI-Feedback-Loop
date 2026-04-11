@@ -1,0 +1,24 @@
+{
+  "conversation_id": "c83ac84d-d79e-4efc-b359-dcd9e24cf26f",
+  "user_id": "user",
+  "timestamp": "2025-10-27T09:49:09.297806",
+  "conversation_history": [
+    {
+      "sender": "user",
+      "text": "hi",
+      "timestamp": 1761538746.7019641
+    },
+    {
+      "sender": "bot",
+      "text": "Hey! How can I help you today?",
+      "timestamp": 1761538746.7144825
+    },
+    {
+      "sender": "user",
+      "text": "can i get agent",
+      "timestamp": 1761538749.2786357
+    }
+  ],
+  "reason": "user_request",
+  "status": "pending"
+}

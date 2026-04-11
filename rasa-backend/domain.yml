@@ -1,0 +1,191 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - bot_challenge
+  - request_agent
+  - technical_issue
+  - billing_issue
+  - account_issue
+  - out_of_scope
+  - nlu_fallback
+  - clear_browser_cache
+  - password_reset
+  - account_locked
+  - billing_question
+  - software_not_working
+  - product_features
+  - installation_help
+  - slow_computer
+  - email_not_received
+  - cancel_subscription
+  - search_website
+  - ask_about_website
+  - refresh_knowledge
+  - ask_about_rasa
+  - rasa_usage
+
+entities:
+  - issue_type
+  - search_query
+
+slots:
+  conversation_id:
+    type: text
+    mappings:
+    - type: from_text
+  escalated:
+    type: bool
+    initial_value: false
+    mappings:
+    - type: custom
+  agent_needed:
+    type: bool
+    initial_value: false
+    mappings:
+    - type: custom
+  search_query:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: search_query
+
+responses:
+  utter_greet:
+  - text: "Hey! How can I help you today?"
+    buttons:
+    - title: "Technical Issue"
+      payload: "I have a technical issue"
+    - title: "Billing Question"
+      payload: "I have a billing question"
+    - title: "Talk to Agent"
+      payload: "I want to talk to an agent"
+
+  utter_goodbye:
+  - text: "Bye! Have a great day!"
+
+  utter_iamabot:
+  - text: "I am an AI assistant, powered by Rasa. If you need human support, just let me know!"
+    buttons:
+    - title: "Talk to Human Agent"
+      payload: "I want to talk to an agent"
+
+  utter_transfer_to_agent:
+  - text: "I understand you'd like to speak with a human agent. Let me connect you right away..."
+
+  utter_low_confidence:
+  - text: "I'm not quite sure I understood that correctly. Would you like me to connect you with a human agent?"
+    buttons:
+    - title: "Yes, connect me"
+      payload: "I want to talk to an agent"
+    - title: "No, let me rephrase"
+      payload: "Let me rephrase"
+
+  utter_ask_continue:
+  - text: "Did this help? If you need further assistance, just let me know!"
+    buttons:
+    - title: "Yes, thanks!"
+      payload: "Yes, thanks"
+    - title: "No, I need more help"
+      payload: "I need more help"
+    - title: "Talk to agent"
+      payload: "I want to talk to an agent"
+
+  utter_technical_issue:
+  - text: "I can help you with your technical issue! Here's what you can try:\n\n1. Check Task Manager for high CPU/memory usage (Ctrl+Shift+Esc)\n2. Close unnecessary programs and browser tabs\n3. Restart your computer\n4. Run Disk Cleanup to free up space\n5. Check for system updates\n\nWould you like me to walk you through any of these steps?"
+    buttons:
+    - title: "Show me Task Manager steps"
+      payload: "Show me how to use Task Manager"
+    - title: "This helped, thanks!"
+      payload: "Thanks, this helped"
+    - title: "I need more help"
+      payload: "I want to talk to an agent"
+
+  utter_account_issue:
+  - text: "I can help you reset your password! Here's how:\n\n1. Go to the login page and click 'Forgot Password'\n2. Enter your email address\n3. Check your email for the reset link\n4. Click the link and create a new password\n\nDid this solve your issue?"
+    buttons:
+    - title: "Yes, it worked!"
+      payload: "Yes, it worked"
+    - title: "I didn't get the email"
+      payload: "I didn't receive the password reset email"
+    - title: "Talk to support"
+      payload: "I want to talk to an agent"
+
+  utter_billing_issue:
+  - text: "I can help with billing questions! Common solutions:\n\n1. View invoices: Go to Account Settings > Billing\n2. Update payment: Account Settings > Payment Methods\n3. Cancel subscription: Account Settings > Subscription\n\nWhat specifically do you need help with?"
+    buttons:
+    - title: "View my invoices"
+      payload: "I want to view my invoices"
+    - title: "Update payment method"
+      payload: "I want to update my payment method"
+    - title: "Talk to billing team"
+      payload: "I want to talk to an agent"
+
+  utter_out_of_scope:
+  - text: "I'm sorry, I can only help with technical issues, billing questions, and account-related problems. Is there something in those areas I can assist you with?"
+    buttons:
+    - title: "Technical Issue"
+      payload: "I have a technical issue"
+    - title: "Billing Question"
+      payload: "I have a billing question"
+    - title: "Account Issue"
+      payload: "I have an account issue"
+    - title: "Talk to Agent"
+      payload: "I want to talk to an agent"
+
+  utter_password_reset:
+  - text: "To reset your password:\n\n1. Go to the login page\n2. Click 'Forgot Password?'\n3. Enter your email address\n4. Check your email for a reset link\n5. Click the link and create a new password\n\nThe link expires in 24 hours. If you need more help, I can connect you with an agent!"
+
+  utter_account_locked:
+  - text: "Your account may be locked due to multiple failed login attempts. It will automatically unlock in 30 minutes. If you need immediate access, I can connect you with an agent who can unlock it manually."
+
+  utter_billing_question:
+  - text: "Our pricing plans:\n\n- Basic: $9.99/month\n- Pro: $19.99/month\n- Enterprise: Custom pricing\n\nAll plans include a 14-day free trial. Would you like more details about a specific plan?"
+
+  utter_software_not_working:
+  - text: "Let's troubleshoot this:\n\n1. Try restarting the application\n2. Check if your software is up to date\n3. Restart your computer\n4. Reinstall the application if the issue persists\n\nIf none of these work, I can connect you with technical support!"
+
+  utter_product_features:
+  - text: "Our product includes:\n\n- Real-time chat support\n- AI-powered responses\n- Agent escalation\n- Multi-language support\n- Analytics dashboard\n- Custom integrations\n\nWhat specific feature would you like to know more about?"
+
+  utter_installation_help:
+  - text: "Installation steps:\n\n1. Download the installer from our website\n2. Run the .exe file\n3. Follow the installation wizard\n4. Restart your computer after installation\n5. Launch the application and log in\n\nEncountering any errors? Let me know!"
+
+  utter_clear_browser_cache:
+  - text: "To clear your browser cache:\n\nChrome: Press Ctrl+Shift+Delete, select 'All time', check 'Cached images and files', click 'Clear data'\n\nFirefox: Press Ctrl+Shift+Delete, select 'Everything', check 'Cache', click 'Clear Now'\n\nEdge: Press Ctrl+Shift+Delete, select 'All time', check 'Cached images and files', click 'Clear now'"
+
+  utter_slow_computer:
+  - text: "To improve computer performance:\n\n1. Close unnecessary programs\n2. Check Task Manager for high CPU/memory usage\n3. Run Disk Cleanup\n4. Restart your computer\n5. Disable startup programs you don't need\n6. Consider upgrading RAM if issues persist\n\nNeed detailed help? I can connect you with an agent!"
+
+  utter_email_not_received:
+  - text: "If you haven't received the email:\n\n1. Check your spam/junk folder\n2. Verify the email address is correct\n3. Wait 5-10 minutes (emails can be delayed)\n4. Add our domain to your safe senders list\n5. Request a new email\n\nStill not seeing it? Let me connect you with support!"
+
+  utter_cancel_subscription:
+  - text: "I'm sorry to see you go! To cancel your subscription, please visit your account settings and click 'Cancel Subscription'. You'll have access until the end of your current billing period. Would you like me to connect you with an agent to discuss your concerns?"
+
+  utter_about_rasa:
+  - text: "About Rasa\n\nRasa is an open-source conversational AI platform that helps you build contextual AI assistants and chatbots.\n\nKey Features:\n- Natural Language Understanding (NLU) - Understands user intent\n- Dialogue Management - Manages conversation flow\n- Open Source - Full control over your data\n- Enterprise Ready - Scalable and secure\n- Multi-channel Support - Deploy anywhere\n\nThis Chatbot is built using Rasa Open Source and demonstrates intent classification, entity extraction, custom actions, and agent escalation.\n\nLearn more at https://rasa.com"
+
+  utter_rasa_usage:
+  - text: "How to Use Rasa\n\nHere's a quick guide to get started:\n\n1. Installation: pip install rasa\n\n2. Create a New Project: rasa init\n\n3. Key Files to Edit:\n- data/nlu.yml - Training examples for intents\n- data/stories.yml - Conversation flows\n- domain.yml - Intents, responses, and actions\n- config.yml - NLU pipeline configuration\n\n4. Train Your Model: rasa train\n\n5. Test Your Bot: rasa shell\n\n6. Run Action Server: rasa run actions\n\nFull documentation: https://rasa.com/docs/"
+    buttons:
+    - title: "Tell me about Rasa features"
+      payload: "what is rasa"
+    - title: "Talk to an agent"
+      payload: "I want to talk to an agent"
+
+actions:
+  - action_check_confidence
+  - action_escalate_to_agent
+  - action_log_conversation
+  - action_answer_from_website
+  - action_smart_fallback
+  - action_search_website
+  - action_refresh_knowledge
+  - action_initialize_knowledge
+  - action_default_fallback
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

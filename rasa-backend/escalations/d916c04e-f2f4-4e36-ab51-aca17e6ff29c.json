@@ -1,0 +1,39 @@
+{
+  "conversation_id": "d916c04e-f2f4-4e36-ab51-aca17e6ff29c",
+  "user_id": "user",
+  "timestamp": "2025-10-27T19:58:51.900906",
+  "conversation_history": [
+    {
+      "sender": "user",
+      "text": "my computer is running slow",
+      "timestamp": 1761575283.6167574
+    },
+    {
+      "sender": "bot",
+      "text": " Check Task Manager for high CPU usage Close unnecessary programs Restart the computer Run disk cleanup",
+      "timestamp": 1761575284.0189056
+    },
+    {
+      "sender": "user",
+      "text": "how to open setting in windows 11",
+      "timestamp": 1761575300.6266162
+    },
+    {
+      "sender": "bot",
+      "text": " Check Task Manager for high CPU usage Close unnecessary programs Restart the computer Run disk cleanup",
+      "timestamp": 1761575300.6461277
+    },
+    {
+      "sender": "user",
+      "text": "how do I open settings in windows 11",
+      "timestamp": 1761575331.8693018
+    },
+    {
+      "sender": "bot",
+      "text": "I'm not quite sure I understood that correctly. Would you like me to connect you with a human agent?",
+      "timestamp": 1761575331.8808239
+    }
+  ],
+  "reason": "user_request",
+  "status": "pending"
+}

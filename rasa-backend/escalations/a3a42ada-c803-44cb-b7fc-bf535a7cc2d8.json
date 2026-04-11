@@ -1,0 +1,24 @@
+{
+  "conversation_id": "a3a42ada-c803-44cb-b7fc-bf535a7cc2d8",
+  "user_id": "user_18bwfgyqifj",
+  "timestamp": "2025-12-05T08:40:45.225298",
+  "conversation_history": [
+    {
+      "sender": "user",
+      "text": "what can you tell me about rasa",
+      "timestamp": 1764904216.3168607
+    },
+    {
+      "sender": "bot",
+      "text": "I'm not sure I understand. Here's what I can help with:\n\n\u2022 Password reset and account issues\n\u2022 Billing and pricing questions\n\u2022 Technical support\n\u2022 Product information\n\u2022 Installation help\n\nOr I can connect you with a human agent. What would you prefer?",
+      "timestamp": 1764904217.3838189
+    },
+    {
+      "sender": "user",
+      "text": "I have a billing question",
+      "timestamp": 1764904244.1990485
+    }
+  ],
+  "reason": "user_request",
+  "status": "pending"
+}

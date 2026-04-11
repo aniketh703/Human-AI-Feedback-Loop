@@ -1,0 +1,159 @@
+{
+  "conversation_id": "82bcdc30-0c90-4ac3-a3c8-2466a673da62",
+  "user_id": "test_user",
+  "timestamp": "2025-11-29T23:19:47.986578",
+  "conversation_history": [
+    {
+      "sender": "user",
+      "text": "hello",
+      "timestamp": 1764437993.4606588
+    },
+    {
+      "sender": "bot",
+      "text": "Hey! How can I help you today?",
+      "timestamp": 1764437993.892422
+    },
+    {
+      "sender": "user",
+      "text": "asdfghjkl",
+      "timestamp": 1764437994.9636402
+    },
+    {
+      "sender": "bot",
+      "text": "I'm not quite sure I understood that correctly. Would you like me to connect you with a human agent?",
+      "timestamp": 1764437994.980925
+    },
+    {
+      "sender": "user",
+      "text": "yes",
+      "timestamp": 1764437997.0863993
+    },
+    {
+      "sender": "user",
+      "text": "hello",
+      "timestamp": 1764438076.845927
+    },
+    {
+      "sender": "bot",
+      "text": "Hey! How can I help you today?",
+      "timestamp": 1764438076.87468
+    },
+    {
+      "sender": "user",
+      "text": "asdfghjkl",
+      "timestamp": 1764438077.9412425
+    },
+    {
+      "sender": "bot",
+      "text": "I'm not quite sure I understood that correctly. Would you like me to connect you with a human agent?",
+      "timestamp": 1764438077.9589188
+    },
+    {
+      "sender": "user",
+      "text": "yes",
+      "timestamp": 1764438080.0561738
+    },
+    {
+      "sender": "user",
+      "text": "hello",
+      "timestamp": 1764438293.3619835
+    },
+    {
+      "sender": "bot",
+      "text": "Hey! How can I help you today?",
+      "timestamp": 1764438293.4071908
+    },
+    {
+      "sender": "user",
+      "text": "asdfghjkl",
+      "timestamp": 1764438294.4738572
+    },
+    {
+      "sender": "bot",
+      "text": "I'm not quite sure I understood that correctly. Would you like me to connect you with a human agent?",
+      "timestamp": 1764438294.486398
+    },
+    {
+      "sender": "user",
+      "text": "yes",
+      "timestamp": 1764438296.578259
+    },
+    {
+      "sender": "user",
+      "text": "hello",
+      "timestamp": 1764438345.1757948
+    },
+    {
+      "sender": "bot",
+      "text": "Hey! How can I help you today?",
+      "timestamp": 1764438345.215994
+    },
+    {
+      "sender": "user",
+      "text": "asdfghjkl",
+      "timestamp": 1764438346.291617
+    },
+    {
+      "sender": "bot",
+      "text": "I'm not quite sure I understood that correctly. Would you like me to connect you with a human agent?",
+      "timestamp": 1764438346.309003
+    },
+    {
+      "sender": "user",
+      "text": "yes",
+      "timestamp": 1764438348.421913
+    },
+    {
+      "sender": "user",
+      "text": "hello",
+      "timestamp": 1764438437.0425708
+    },
+    {
+      "sender": "bot",
+      "text": "Hey! How can I help you today?",
+      "timestamp": 1764438437.0822647
+    },
+    {
+      "sender": "user",
+      "text": "asdfghjkl",
+      "timestamp": 1764438438.1649923
+    },
+    {
+      "sender": "bot",
+      "text": "I'm not quite sure I understood that correctly. Would you like me to connect you with a human agent?",
+      "timestamp": 1764438438.1932662
+    },
+    {
+      "sender": "user",
+      "text": "yes",
+      "timestamp": 1764438440.328452
+    },
+    {
+      "sender": "user",
+      "text": "hello",
+      "timestamp": 1764438583.6288226
+    },
+    {
+      "sender": "bot",
+      "text": "Hey! How can I help you today?",
+      "timestamp": 1764438583.6700735
+    },
+    {
+      "sender": "user",
+      "text": "asdfghjkl",
+      "timestamp": 1764438584.7303402
+    },
+    {
+      "sender": "bot",
+      "text": "I'm not quite sure I understood that correctly. Would you like me to connect you with a human agent?",
+      "timestamp": 1764438584.7467523
+    },
+    {
+      "sender": "user",
+      "text": "yes",
+      "timestamp": 1764438586.9017546
+    }
+  ],
+  "reason": "user_request",
+  "status": "pending"
+}

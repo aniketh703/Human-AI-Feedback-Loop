@@ -1,0 +1,39 @@
+{
+  "conversation_id": "8e414064-6681-480d-8e7a-e2a15d6b3fca",
+  "user_id": "user",
+  "timestamp": "2025-11-01T15:55:53.955357",
+  "conversation_history": [
+    {
+      "sender": "user",
+      "text": "my computer is slow",
+      "timestamp": 1761992718.397084
+    },
+    {
+      "sender": "bot",
+      "text": " Check Task Manager for high CPU usage Close unnecessary programs Restart the computer Run disk cleanup",
+      "timestamp": 1761992720.0144804
+    },
+    {
+      "sender": "user",
+      "text": "how to clear browser cache",
+      "timestamp": 1761992736.8209407
+    },
+    {
+      "sender": "bot",
+      "text": " Check Task Manager for high CPU usage Close unnecessary programs Restart the computer Run disk cleanup",
+      "timestamp": 1761992737.0848072
+    },
+    {
+      "sender": "user",
+      "text": "how di register for an event",
+      "timestamp": 1761992753.8542075
+    },
+    {
+      "sender": "bot",
+      "text": "I'm not quite sure I understood that correctly. Would you like me to connect you with a human agent?",
+      "timestamp": 1761992753.885677
+    }
+  ],
+  "reason": "user_request",
+  "status": "pending"
+}
